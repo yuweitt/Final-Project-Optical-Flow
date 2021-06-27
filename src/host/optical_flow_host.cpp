@@ -29,8 +29,8 @@ int main(int argc, char ** argv)
   // parse command line arguments
   std::string dataPath("");
   std::string outFile("");
-  dataPath = "dataset";
-  outFile = "dataset/outFile.flo";
+  dataPath = "../dataset";
+  outFile = "../dataset/outFile.flo";
   // create actual file names according to the datapath
   std::string frame_files[5];
   std::string reference_file;
@@ -61,10 +61,6 @@ int main(int argc, char ** argv)
   // timers
   struct timeval start, end;
 
-  // opencl version host code
-
-  // sdsoc version host code
-
   // input and output buffers
   static frames_t frames[MAX_HEIGHT][MAX_WIDTH];
   static velocity_t outputs[MAX_HEIGHT][MAX_WIDTH];
@@ -77,8 +73,8 @@ int main(int argc, char ** argv)
       frames[i][j](7 ,  0) = imgs[0].Pixel(j, i, 0);
       frames[i][j](15,  8) = imgs[1].Pixel(j, i, 0);
       frames[i][j](23, 16) = imgs[2].Pixel(j, i, 0);
-      // frames[i][j](31, 24) = imgs[3].Pixel(j, i, 0);
-      // frames[i][j](39, 32) = imgs[4].Pixel(j, i, 0);
+      frames[i][j](31, 24) = imgs[3].Pixel(j, i, 0);
+      frames[i][j](39, 32) = imgs[4].Pixel(j, i, 0);
       frames[i][j](63, 24) = 0;  
     }
   }
