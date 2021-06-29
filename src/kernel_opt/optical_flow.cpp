@@ -397,6 +397,9 @@ void flow_calc(tensor_t tensors[MAX_HEIGHT][MAX_WIDTH],
   }
 }
 
+// typedef ap_uint<64> frames_t;
+// typedef ap_fixed<32,13> vel_pixel_t;
+
 // top-level kernel function
 void optical_flow(frames_t   frames[MAX_HEIGHT][MAX_WIDTH],
                   velocity_t outputs[MAX_HEIGHT][MAX_WIDTH])
