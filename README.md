@@ -48,8 +48,8 @@ If needed, resize your image with opencv to reach higher frame rate.
 
 ## Build Step
 Build new HLS project with provided source file and tcl script.  
-Environment: Vivado HLS 2019.2 
-[Code Source](https://github.com/cornell-zhang/rosetta)
+Environment: Vivado HLS 2019.2  
+[HLS Code Source](https://github.com/cornell-zhang/rosetta)
 
 ## Result Demo
 
