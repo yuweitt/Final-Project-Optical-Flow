@@ -11,23 +11,23 @@ Team7 HLS Final Project
 
 ## Folder Structure
 
-| -- README.md		# overview of the project  
-| -- build/		    # build scripts  
-| -- docs/			# Powerpoint of this project  
-| -- src/			# Source files  
-|    | -- original/		  
-|          | --  README.md   	  
-|    | -- host/		# host code  
-|    | -- kernel_opt1/	# kernel code with optimization opt1 – note: use in-line pragma  
-|
-|-- data/			  
-|    | -- README.md	  
-|    | -- dataset_1/		# dataset_1  
-|    | -- dataset_2/		# dataset_2  
-|    | -- MP4-video-to-PPM-batch-converter/
-|
-| -- impl_result/			# HLS synth report  
-| -- LICENSE		# License fiel, we use MIT License (refer to last page of the ppt)  
+|&emsp; -- README.md&emsp;&emsp;		# overview of the project  
+|&emsp; -- build/&emsp;&emsp;&emsp;&emsp;&emsp;		    # build scripts  
+|&emsp; -- docs/&emsp;&emsp;&emsp;&emsp;&emsp;			# Slide of this project  
+|&emsp; -- src/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;			# Source files  
+|&emsp;    |&emsp; -- original/		  
+|&emsp;    |&emsp; --  README.md   	  
+|&emsp;    |&emsp; -- host/&emsp;&emsp;&emsp;&emsp;		# host code  
+|&emsp;    |&emsp; -- kernel_opt1/&emsp;	# kernel code with optimization opt1 – note: use in-line pragma  
+|&emsp;
+|&emsp;-- data/			  
+|&emsp;    |&emsp; -- README.md	  
+|&emsp;    |&emsp; -- dataset_1/&emsp;&emsp;		# dataset_1  
+|&emsp;    |&emsp; -- dataset_2/&emsp;&emsp;		# dataset_2  
+|&emsp;    |&emsp; -- MP4-video-to-PPM-batch-converter/
+|&emsp;  
+|&emsp; -- impl_result/&emsp;&emsp;&emsp; # HLS synth report  
+|&emsp; -- LICENSE&emsp;&emsp;&emsp;&emsp;&emsp;# License fiel, we use MIT License (refer to last page of the ppt)  
 
 
 ## How to produce your own Dataset ???
